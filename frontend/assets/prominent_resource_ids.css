@@ -1,0 +1,9 @@
+.prominent_resource_id {
+    font-weight: bold;
+    font-size: large;
+    margin: -4px 8px 0px 8px;
+    padding: 1px 10px 1px 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+    background: #fec;
+}
