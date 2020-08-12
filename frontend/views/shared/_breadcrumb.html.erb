@@ -20,9 +20,15 @@
         <% end %>
         <%# PLUGIN CONTENT STARTS HERE %>
           <% if controller_name == 'resources' && @resource %>
-            <span class="prominent_resource_id pull-right">
-              <%= [@resource['id_0'], @resource['id_1'], @resource['id_2'], @resource['id_3']].compact.join('.') %>
-            </span>
+            <script>$(function() { $('body').append('<div class="prominent_resource_page_padder"/>')});</script>
+            <div class="prominent_resource_strip">
+              <span class="prominent_resource_id">
+                <%= [@resource['id_0'], @resource['id_1'], @resource['id_2'], @resource['id_3']].compact.join('-') %>
+              </span>
+              <span class="prominent_resource_title">
+                <%= @resource['title'] %>
+              </span>
+            </div>
           <% end %>
         <%# PLUGIN CONTENT ENDS HERE %>
       </ol>

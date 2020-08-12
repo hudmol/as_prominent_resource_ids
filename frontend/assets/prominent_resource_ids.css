@@ -1,9 +1,35 @@
+.prominent_resource_strip {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    background: #333;
+    padding: 6px 12px 6px 12px;
+    z-index: 9;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
 .prominent_resource_id {
     font-weight: bold;
     font-size: large;
-    margin: -4px 8px 0px 8px;
+    margin: 0px 8px 0px 8px;
     padding: 1px 10px 1px 10px;
     border: 1px solid black;
     border-radius: 4px;
     background: #fec;
+}
+
+.prominent_resource_title {
+    font-weight: bold;
+    font-size: large;
+    margin: 0px 8px 0px 8px;
+    padding: 1px 10px 1px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: #eee;
+}
+
+.prominent_resource_page_padder {
+    height: 30px;
 }
