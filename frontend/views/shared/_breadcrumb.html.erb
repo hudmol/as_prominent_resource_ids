@@ -26,7 +26,7 @@
                 <%= [@resource['id_0'], @resource['id_1'], @resource['id_2'], @resource['id_3']].compact.join('-') %>
               </span>
               <span class="prominent_resource_title">
-                <%= @resource['title'] %>
+                <%= strip_tags(@resource['title']) %>
               </span>
             </div>
           <% end %>
